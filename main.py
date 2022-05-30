@@ -21,6 +21,5 @@ i = "yes"
 while i == "yes":
     print(find_anagram("word", "anagram"))
     i is not input("Do you want to continue (yes/no) : ")
-    i = "no"
-else:
-    print("Thank you")
+    exit(find_anagram)
+
